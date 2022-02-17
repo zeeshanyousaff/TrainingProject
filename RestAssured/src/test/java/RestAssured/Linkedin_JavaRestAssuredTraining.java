@@ -30,7 +30,7 @@ public class Linkedin_JavaRestAssuredTraining {
                 then();
        response.log().body();
        response.statusCode(201);
-    
+
 
     }
 
