@@ -1,9 +1,9 @@
 package RestAssured;
 
-import io.restassured.response.Response;
 import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
 public class Linkedin_JavaRestAssuredTraining {
 
 
@@ -30,7 +30,7 @@ public class Linkedin_JavaRestAssuredTraining {
                 then();
        response.log().body();
        response.statusCode(201);
-       response.assertThat(body,samePropertyValuesAs())
+    
 
     }
 
