@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.634 s <<< FAILURE! - in TestSuite
+RestAssured.Linkedin_JavaRestAssuredTraining.createUser  Time elapsed: 1.976 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <201>.
+
+	at RestAssured.Linkedin_JavaRestAssuredTraining.createUser(Linkedin_JavaRestAssuredTraining.java:32)
+
