@@ -29,7 +29,7 @@ public class Linkedin_JavaRestAssuredTraining {
                 post(endpoint).
                 then();
        response.log().body();
-       response.statusCode(200);
+       response.statusCode(201);
 
 
     }
