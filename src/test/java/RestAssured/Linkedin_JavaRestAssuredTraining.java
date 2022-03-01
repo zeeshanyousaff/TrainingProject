@@ -23,20 +23,12 @@ public class Linkedin_JavaRestAssuredTraining {
     {
         String endpoint="https://reqres.in/api/users";
         userClass_POST body=new userClass_POST("Cristiano Ronaldo","Footballer");
-
        var response= given().body(body).
                 when().
                 post(endpoint).
                 then();
        response.log().body();
        response.statusCode(201);
-
-
     }
-
-
-
-
-
 
 }
