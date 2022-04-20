@@ -1,4 +1,4 @@
-package General;
+package HackerRankPreparation;
 
 public class MockPractice {
 
